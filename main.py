@@ -138,7 +138,7 @@ while cap.isOpened():
 cap.release()
 out.release()
 
-print("✅ Annotated video saved as", output_video)
+print("Annotated video saved as", output_video)
 
-# Display video in Colab
+# To Display video in Colab
 Video(output_video, embed=True, width=640, height=480)
